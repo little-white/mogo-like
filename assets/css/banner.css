@@ -1,0 +1,151 @@
+.banner {
+    background: url("../images/banner/banner.png") no-repeat;
+    height: 820px;
+    background-size: cover;
+}
+
+/* header */
+.banner .header {
+    padding-top: 19px;
+}
+
+.banner .header .logo {
+    margin-left: 5px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.banner .header .logo,
+.banner .header .nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banner .header .nav {
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.banner .header .nav ul li {
+    color: #fff;
+    float: left;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.banner .header .nav ul li.active,
+.banner .header .nav ul li:hover {
+    color: #fce38a;
+}
+
+.banner .header .nav ul li:not(:nth-child(6)):not(:last-child):after {
+    content: "";
+    display: none;
+    width: 100%;
+    height: 3px;
+    background-color: #fce38a;
+    position: relative;
+    top: 7px;
+}
+
+.banner .header .nav ul li:not(:nth-child(6)):not(:last-child):hover:after {
+    display: block;
+}
+
+.banner .header .nav ul li.active:not(:nth-child(6)):not(:last-child):after {
+    display: block;
+}
+
+.banner .header .nav ul li:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* container */
+.banner .container {
+    margin-top: 127px;
+}
+
+.banner .container div:nth-child(1) {
+    text-align: center;
+    font-family: 'KaushanScript';
+    font-size: 59px;
+    color: #fff;
+}
+
+.banner .container div:nth-child(2) {
+    font-size: 120px;
+    text-align: center;
+    width: 706px;
+    margin: 22px auto 0;
+    line-height: 116px;
+    color: #fff;
+}
+
+.banner .container div:nth-child(3) {
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    margin: 40px auto;
+}
+
+.banner .container div:nth-child(4) {
+    width: 130px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* footer */
+
+.footer {
+    width: 990px;
+    margin: 126px auto 0;
+}
+
+.footer ul li {
+    float: left;
+    width: 230px;
+    height: 40px;
+    padding-top: 21px;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: #fff;
+    position: relative;
+}
+
+.footer ul li:before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.footer ul li:first-child:before {
+    background-color: #fff;
+}
+
+.footer ul li:not(:first-child):before {
+    background-color: #f8ebc5;
+}
+
+
+.footer ul li:first-child:after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #f38181;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.footer ul li:not(:last-child) {
+    margin-right: 23px;
+}

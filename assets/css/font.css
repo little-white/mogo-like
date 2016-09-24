@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Montserrat'; /*a name to be used later*/
+    src: url('../font/Montserrat-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'KaushanScript'; /*a name to be used later*/
+    src: url('../font/KaushanScript-Regular.otf'); /*URL to font*/
+}
